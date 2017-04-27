@@ -1,0 +1,1260 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://webprotege.stanford.edu/project/8lH4tzUtYYr4TLP977LA4g#"
+     xml:base="http://webprotege.stanford.edu/project/8lH4tzUtYYr4TLP977LA4g"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://webprotege.stanford.edu/project/8lH4tzUtYYr4TLP977LA4g"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9EZiRgmKqNtM0IEbK6rPTm -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R9EZiRgmKqNtM0IEbK6rPTm">
+        <rdfs:label>doap:homepage</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/2009/pointers#endPointer -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/2009/pointers#endPointer">
+        <rdfs:label>ptr:endPointer</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/2009/pointers#groupPointer -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/2009/pointers#groupPointer">
+        <rdfs:label>ptr:groupPointer</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/2009/pointers#namespace -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/2009/pointers#namespace">
+        <rdfs:label>ptr:namespace</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/2009/pointers#startPoiner -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/2009/pointers#startPoiner">
+        <rdfs:label>ptr:startPoiner</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/ns/earl#assertedBy -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/ns/earl#assertedBy">
+        <rdfs:label>earl:assertedBy</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.w3.org/ns/earl#Assertion"/>
+        <rdfs:range rdf:resource="http://www.w3.org/ns/earl#Assertor"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/ns/earl#mainAssertor -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/ns/earl#mainAssertor">
+        <rdfs:label>earl:mainAssertor</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/ns/earl#Assertor"/>
+        <rdfs:domain rdf:resource="http://www.w3.org/ns/earl#Assertor"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/ns/earl#mode -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/ns/earl#mode">
+        <rdfs:label>earl:mode</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.w3.org/ns/earl#Assertion"/>
+        <rdfs:range rdf:resource="http://www.w3.org/ns/earl#TestMode"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/ns/earl#outcome -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/ns/earl#outcome">
+        <rdfs:label>earl:outcome</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/ns/earl#OutcomeValue"/>
+        <rdfs:domain rdf:resource="http://www.w3.org/ns/earl#TestResult"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/ns/earl#pointer -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/ns/earl#pointer">
+        <rdfs:label>earl:pointer</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.w3.org/ns/earl#TestResult"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/ns/earl#result -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/ns/earl#result">
+        <rdfs:label>earl:result</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.w3.org/ns/earl#Assertion"/>
+        <rdfs:range rdf:resource="http://www.w3.org/ns/earl#TestResult"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/ns/earl#subject -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/ns/earl#subject">
+        <rdfs:label>earl:subject</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.w3.org/ns/earl#Assertion"/>
+        <rdfs:range rdf:resource="http://www.w3.org/ns/earl#TestSubject"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/ns/earl#test -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/ns/earl#test">
+        <rdfs:label>earl:test</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.w3.org/ns/earl#Assertion"/>
+        <rdfs:range rdf:resource="http://www.w3.org/ns/earl#TestCriterion"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/homepage -->
+
+    <owl:ObjectProperty rdf:about="http://xmlns.com/foaf/0.1/homepage">
+        <rdfs:label>foaf:homepage</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/member -->
+
+    <owl:ObjectProperty rdf:about="http://xmlns.com/foaf/0.1/member">
+        <rdfs:label>foaf:member</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7Liy8D2hCFCBsGVpIrD5UF -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R7Liy8D2hCFCBsGVpIrD5UF">
+        <rdfs:label>dct:hasPart</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7qwbadpYHIQ1bGs7ceA8c3 -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R7qwbadpYHIQ1bGs7ceA8c3">
+        <rdfs:label>dct:hasVersion</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R81g3UUnun1PBVFopR1mJHG -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R81g3UUnun1PBVFopR1mJHG">
+        <rdfs:label>doap:created</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9NALllG9mXqB2tKEX2a4FK -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R9NALllG9mXqB2tKEX2a4FK">
+        <rdfs:label>dct:description</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9oibNeDoJRh39SKKOhrPva -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R9oibNeDoJRh39SKKOhrPva">
+        <rdfs:label>dct:date</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9pvMAgPM4ngLxBeK9kvQqz -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R9pvMAgPM4ngLxBeK9kvQqz">
+        <rdfs:label>dct:title</rdfs:label>
+        <rdfs:comment rdf:resource="http://purl.org/dc/terms/title"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.w3.org/ns/earl#Assertion"/>
+        <rdfs:domain rdf:resource="http://www.w3.org/ns/earl#Assertor"/>
+        <rdfs:domain rdf:resource="http://www.w3.org/ns/earl#OutcomeValue"/>
+        <rdfs:domain rdf:resource="http://www.w3.org/ns/earl#TestCriterion"/>
+        <rdfs:domain rdf:resource="http://www.w3.org/ns/earl#TestMode"/>
+        <rdfs:domain rdf:resource="http://www.w3.org/ns/earl#TestResult"/>
+        <rdfs:domain rdf:resource="http://www.w3.org/ns/earl#TestSubject"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBciI0Mvdy0oeiATLnrr25H -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RBciI0Mvdy0oeiATLnrr25H">
+        <rdfs:label>doap:release</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDUuCLoAJa1OIFADFoCgO1f -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RDUuCLoAJa1OIFADFoCgO1f">
+        <rdfs:label>doap:description</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDdbpDTjcW8Vp70CH5BYZeX -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RDdbpDTjcW8Vp70CH5BYZeX">
+        <rdfs:label>doap:name</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RnrSJUlMh9Spc9qRxYdokm -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RnrSJUlMh9Spc9qRxYdokm">
+        <rdfs:label>dct:isPartOf</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.w3.org/2009/pointers#byteOffset -->
+
+    <owl:DatatypeProperty rdf:about="http://www.w3.org/2009/pointers#byteOffset">
+        <rdfs:label>ptr:byteOffset</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.w3.org/2009/pointers#charNumber -->
+
+    <owl:DatatypeProperty rdf:about="http://www.w3.org/2009/pointers#charNumber">
+        <rdfs:label>ptr:charNumber</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.w3.org/2009/pointers#charOffset -->
+
+    <owl:DatatypeProperty rdf:about="http://www.w3.org/2009/pointers#charOffset">
+        <rdfs:label>ptr:charOffset</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.w3.org/2009/pointers#expression -->
+
+    <owl:DatatypeProperty rdf:about="http://www.w3.org/2009/pointers#expression">
+        <rdfs:label>ptr:expression</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.w3.org/2009/pointers#lineNumber -->
+
+    <owl:DatatypeProperty rdf:about="http://www.w3.org/2009/pointers#lineNumber">
+        <rdfs:label>ptr:lineNumber</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.w3.org/2009/pointers#namespaceName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.w3.org/2009/pointers#namespaceName">
+        <rdfs:label>ptr:namespaceName</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.w3.org/2009/pointers#offset -->
+
+    <owl:DatatypeProperty rdf:about="http://www.w3.org/2009/pointers#offset">
+        <rdfs:label>ptr:offset</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.w3.org/2009/pointers#prefix -->
+
+    <owl:DatatypeProperty rdf:about="http://www.w3.org/2009/pointers#prefix">
+        <rdfs:label>ptr:prefix</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.w3.org/2009/pointers#reference -->
+
+    <owl:DatatypeProperty rdf:about="http://www.w3.org/2009/pointers#reference">
+        <rdfs:label>ptr:reference</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.w3.org/2009/pointers#version -->
+
+    <owl:DatatypeProperty rdf:about="http://www.w3.org/2009/pointers#version">
+        <rdfs:label>ptr:version</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.w3.org/ns/earl#info -->
+
+    <owl:DatatypeProperty rdf:about="http://www.w3.org/ns/earl#info">
+        <rdfs:label>earl:info</rdfs:label>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.w3.org/ns/earl#TestResult"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/firstName -->
+
+    <owl:DatatypeProperty rdf:about="http://xmlns.com/foaf/0.1/firstName">
+        <rdfs:label>foaf:firstName</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/mbox -->
+
+    <owl:DatatypeProperty rdf:about="http://xmlns.com/foaf/0.1/mbox">
+        <rdfs:label>foaf:mbox</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/mbox_sha1sum -->
+
+    <owl:DatatypeProperty rdf:about="http://xmlns.com/foaf/0.1/mbox_sha1sum">
+        <rdfs:label>foaf:mbox_sha1sum</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/name -->
+
+    <owl:DatatypeProperty rdf:about="http://xmlns.com/foaf/0.1/name">
+        <rdfs:label>foaf:name</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/nick -->
+
+    <owl:DatatypeProperty rdf:about="http://xmlns.com/foaf/0.1/nick">
+        <rdfs:label>foaf:nick</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/surname -->
+
+    <owl:DatatypeProperty rdf:about="http://xmlns.com/foaf/0.1/surname">
+        <rdfs:label>foaf:surname</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBCTGhyCid2AGUQz5oqGGP -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBCTGhyCid2AGUQz5oqGGP">
+        <rdfs:label>http:Response</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/earl#TestSubject"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/2008/content#Content -->
+
+    <owl:Class rdf:about="http://www.w3.org/2008/content#Content">
+        <rdfs:label>cnt:Content</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/earl#TestSubject"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/2009/pointers#ByteOffsetCompoundPointer -->
+
+    <owl:Class rdf:about="http://www.w3.org/2009/pointers#ByteOffsetCompoundPointer">
+        <rdfs:label>ptr:ByteOffsetCompoundPointer</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2009/pointers#CompoundPointer"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2009/pointers#byteOffset"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#positiveInteger"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/2009/pointers#ByteOffsetPointer -->
+
+    <owl:Class rdf:about="http://www.w3.org/2009/pointers#ByteOffsetPointer">
+        <rdfs:label>ptr:ByteOffsetPointer</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2009/pointers#OffsetPointer"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/2009/pointers#ByteSnippetCompoundPointer -->
+
+    <owl:Class rdf:about="http://www.w3.org/2009/pointers#ByteSnippetCompoundPointer">
+        <rdfs:label>ptr:ByteSnippetCompoundPointer</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2009/pointers#CompoundPointer"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/2009/pointers#CSSSelectorPointer -->
+
+    <owl:Class rdf:about="http://www.w3.org/2009/pointers#CSSSelectorPointer">
+        <rdfs:label>ptr:CSSSelectorPointer</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2009/pointers#ExpressionPointer"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/2009/pointers#CharOffsetCompoundPointer -->
+
+    <owl:Class rdf:about="http://www.w3.org/2009/pointers#CharOffsetCompoundPointer">
+        <rdfs:label>ptr:CharOffsetCompoundPointer</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2009/pointers#CompoundPointer"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2009/pointers#charOffset"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#positiveInteger"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/2009/pointers#CharOffsetPointer -->
+
+    <owl:Class rdf:about="http://www.w3.org/2009/pointers#CharOffsetPointer">
+        <rdfs:label>ptr:CharOffsetPointer</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2009/pointers#OffsetPointer"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/2009/pointers#CharSnippetCompoundPointer -->
+
+    <owl:Class rdf:about="http://www.w3.org/2009/pointers#CharSnippetCompoundPointer">
+        <rdfs:label>ptr:CharSnippetCompoundPointer</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2009/pointers#CompoundPointer"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/2009/pointers#CompoundPointer -->
+
+    <owl:Class rdf:about="http://www.w3.org/2009/pointers#CompoundPointer">
+        <rdfs:label>ptr:CompoundPointer</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2009/pointers#Pointer"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2009/pointers#startPoiner"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2009/pointers#SinglePointer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/2009/pointers#EquivalentPointers -->
+
+    <owl:Class rdf:about="http://www.w3.org/2009/pointers#EquivalentPointers">
+        <rdfs:label>ptr:EquivalentPointers</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2009/pointers#PointersGroup"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/2009/pointers#ExpressionPointer -->
+
+    <owl:Class rdf:about="http://www.w3.org/2009/pointers#ExpressionPointer">
+        <rdfs:label>ptr:ExpressionPointer</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2009/pointers#SinglePointer"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2009/pointers#version"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2009/pointers#expression"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/2009/pointers#LineCharPointer -->
+
+    <owl:Class rdf:about="http://www.w3.org/2009/pointers#LineCharPointer">
+        <rdfs:label>ptr:LineCharPointer</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2009/pointers#SinglePointer"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2009/pointers#charNumber"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#positiveInteger"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2009/pointers#lineNumber"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#positiveInteger"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/2009/pointers#NamespaceMapping -->
+
+    <owl:Class rdf:about="http://www.w3.org/2009/pointers#NamespaceMapping">
+        <rdfs:label>ptr:NamespaceMapping</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2009/pointers#XPathPointer"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2009/pointers#namespaceName"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2009/pointers#prefix"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/2009/pointers#OffsetPointer -->
+
+    <owl:Class rdf:about="http://www.w3.org/2009/pointers#OffsetPointer">
+        <rdfs:label>ptr:OffsetPointer</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2009/pointers#SinglePointer"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2009/pointers#offset"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#positiveInteger"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/2009/pointers#Pointer -->
+
+    <owl:Class rdf:about="http://www.w3.org/2009/pointers#Pointer">
+        <rdfs:label>ptr:Pointer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/2009/pointers#PointersGroup -->
+
+    <owl:Class rdf:about="http://www.w3.org/2009/pointers#PointersGroup">
+        <rdfs:label>ptr:PointersGroup</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2009/pointers#Pointer"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2009/pointers#groupPointer"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2009/pointers#Pointer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/2009/pointers#RelatedPointers -->
+
+    <owl:Class rdf:about="http://www.w3.org/2009/pointers#RelatedPointers">
+        <rdfs:label>ptr:RelatedPointers</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2009/pointers#PointersGroup"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/2009/pointers#SinglePointer -->
+
+    <owl:Class rdf:about="http://www.w3.org/2009/pointers#SinglePointer">
+        <rdfs:label>ptr:SinglePointer</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2009/pointers#Pointer"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2009/pointers#reference"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/2009/pointers#StartEndPointer -->
+
+    <owl:Class rdf:about="http://www.w3.org/2009/pointers#StartEndPointer">
+        <rdfs:label>ptr:StartEndPointer</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2009/pointers#CompoundPointer"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2009/pointers#endPointer"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2009/pointers#SinglePointer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/2009/pointers#XPathPointer -->
+
+    <owl:Class rdf:about="http://www.w3.org/2009/pointers#XPathPointer">
+        <rdfs:label>ptr:XPathPointer</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2009/pointers#ExpressionPointer"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2009/pointers#namespace"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2009/pointers#NamespaceMapping"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/2009/pointers#XPointerPointer -->
+
+    <owl:Class rdf:about="http://www.w3.org/2009/pointers#XPointerPointer">
+        <rdfs:label>ptr:XPointerPointer</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2009/pointers#XPathPointer"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/ns/earl#Assertion -->
+
+    <owl:Class rdf:about="http://www.w3.org/ns/earl#Assertion">
+        <rdfs:label>earl:Assertion</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/ns/earl#mode"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/ns/earl#TestMode"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/ns/earl#test"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/ns/earl#TestCriterion"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/ns/earl#result"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/ns/earl#TestResult"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/ns/earl#assertedBy"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/ns/earl#Assertor"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/ns/earl#subject"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/ns/earl#TestSubject"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/ns/earl#Assertor -->
+
+    <owl:Class rdf:about="http://www.w3.org/ns/earl#Assertor">
+        <rdfs:label>earl:Assertor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R9NALllG9mXqB2tKEX2a4FK"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://xmlns.com/foaf/0.1/nick"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://xmlns.com/foaf/0.1/name"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://xmlns.com/foaf/0.1/homepage"/>
+                <owl:someValuesFrom rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://xmlns.com/foaf/0.1/mbox_sha1sum"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://xmlns.com/foaf/0.1/surname"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://xmlns.com/foaf/0.1/member"/>
+                <owl:someValuesFrom rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://xmlns.com/foaf/0.1/mbox"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R9pvMAgPM4ngLxBeK9kvQqz"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://xmlns.com/foaf/0.1/firstName"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/ns/earl#mainAssertor"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/ns/earl#Assertor"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/ns/earl#CannotTell -->
+
+    <owl:Class rdf:about="http://www.w3.org/ns/earl#CannotTell">
+        <rdfs:label>earl:CannotTell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/earl#OutcomeValue"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/ns/earl#Fail -->
+
+    <owl:Class rdf:about="http://www.w3.org/ns/earl#Fail">
+        <rdfs:label>earl:Fail</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/earl#OutcomeValue"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/ns/earl#NotApplicable -->
+
+    <owl:Class rdf:about="http://www.w3.org/ns/earl#NotApplicable">
+        <rdfs:label>earl:NotApplicable</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/earl#OutcomeValue"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/ns/earl#NotTested -->
+
+    <owl:Class rdf:about="http://www.w3.org/ns/earl#NotTested">
+        <rdfs:label>earl:NotTested</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/earl#OutcomeValue"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/ns/earl#OutcomeValue -->
+
+    <owl:Class rdf:about="http://www.w3.org/ns/earl#OutcomeValue">
+        <rdfs:label>earl:OutcomeValue</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R9NALllG9mXqB2tKEX2a4FK"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R9pvMAgPM4ngLxBeK9kvQqz"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/ns/earl#Pass -->
+
+    <owl:Class rdf:about="http://www.w3.org/ns/earl#Pass">
+        <rdfs:label>earl:Pass</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/earl#OutcomeValue"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/ns/earl#Software -->
+
+    <owl:Class rdf:about="http://www.w3.org/ns/earl#Software">
+        <rdfs:label>earl:Software</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/earl#Assertor"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/earl#TestSubject"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDdbpDTjcW8Vp70CH5BYZeX"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RBciI0Mvdy0oeiATLnrr25H"/>
+                <owl:hasValue>doap:Version</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7Liy8D2hCFCBsGVpIrD5UF"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RnrSJUlMh9Spc9qRxYdokm"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7qwbadpYHIQ1bGs7ceA8c3"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R9EZiRgmKqNtM0IEbK6rPTm"/>
+                <owl:someValuesFrom rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R81g3UUnun1PBVFopR1mJHG"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDUuCLoAJa1OIFADFoCgO1f"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://xmlns.com/foaf/0.1/homepage"/>
+                <owl:someValuesFrom rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/ns/earl#TestCase -->
+
+    <owl:Class rdf:about="http://www.w3.org/ns/earl#TestCase">
+        <rdfs:label>earl:TestCase</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/earl#TestCriterion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/ns/earl#TestCriterion -->
+
+    <owl:Class rdf:about="http://www.w3.org/ns/earl#TestCriterion">
+        <rdfs:label>earl:TestCriterion</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R9NALllG9mXqB2tKEX2a4FK"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RnrSJUlMh9Spc9qRxYdokm"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R9pvMAgPM4ngLxBeK9kvQqz"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7Liy8D2hCFCBsGVpIrD5UF"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/ns/earl#TestMode -->
+
+    <owl:Class rdf:about="http://www.w3.org/ns/earl#TestMode">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R9NALllG9mXqB2tKEX2a4FK"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R9pvMAgPM4ngLxBeK9kvQqz"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/ns/earl#TestRequirement -->
+
+    <owl:Class rdf:about="http://www.w3.org/ns/earl#TestRequirement">
+        <rdfs:label>earl:TestRequirement</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/earl#TestCriterion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/ns/earl#TestResult -->
+
+    <owl:Class rdf:about="http://www.w3.org/ns/earl#TestResult">
+        <rdfs:label>earl:TestResult</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R9pvMAgPM4ngLxBeK9kvQqz"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/ns/earl#outcome"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/ns/earl#OutcomeValue"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/ns/earl#info"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/ns/earl#pointer"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2009/pointers#Pointer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R9oibNeDoJRh39SKKOhrPva"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R9NALllG9mXqB2tKEX2a4FK"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/ns/earl#TestSubject -->
+
+    <owl:Class rdf:about="http://www.w3.org/ns/earl#TestSubject">
+        <rdfs:label>earl:TestSubject</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7Liy8D2hCFCBsGVpIrD5UF"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RnrSJUlMh9Spc9qRxYdokm"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R9NALllG9mXqB2tKEX2a4FK"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R9oibNeDoJRh39SKKOhrPva"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R9pvMAgPM4ngLxBeK9kvQqz"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/Agent -->
+
+    <owl:Class rdf:about="http://xmlns.com/foaf/0.1/Agent">
+        <rdfs:label>foaf:Agent</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/earl#Assertor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/Document -->
+
+    <owl:Class rdf:about="http://xmlns.com/foaf/0.1/Document">
+        <rdfs:label>foaf:Document</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/earl#TestSubject"/>
+    </owl:Class>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/Group -->
+
+    <owl:Class rdf:about="http://xmlns.com/foaf/0.1/Group">
+        <rdfs:label>foaf:Group</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/earl#Assertor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/Organization -->
+
+    <owl:Class rdf:about="http://xmlns.com/foaf/0.1/Organization">
+        <rdfs:label>foaf:Organization</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/earl#Assertor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/Person -->
+
+    <owl:Class rdf:about="http://xmlns.com/foaf/0.1/Person">
+        <rdfs:label>foaf:Person</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/earl#Assertor"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.w3.org/ns/earl#automatic -->
+
+    <owl:NamedIndividual rdf:about="http://www.w3.org/ns/earl#automatic">
+        <rdf:type rdf:resource="http://www.w3.org/ns/earl#TestMode"/>
+        <rdfs:label>earl:automatic</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.w3.org/ns/earl#cantTell -->
+
+    <owl:NamedIndividual rdf:about="http://www.w3.org/ns/earl#cantTell">
+        <rdf:type rdf:resource="http://www.w3.org/ns/earl#CannotTell"/>
+        <rdfs:label>earl:cantTell</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.w3.org/ns/earl#failed -->
+
+    <owl:NamedIndividual rdf:about="http://www.w3.org/ns/earl#failed">
+        <rdf:type rdf:resource="http://www.w3.org/ns/earl#Fail"/>
+        <rdfs:label>earl:failed</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.w3.org/ns/earl#inapplicable -->
+
+    <owl:NamedIndividual rdf:about="http://www.w3.org/ns/earl#inapplicable">
+        <rdf:type rdf:resource="http://www.w3.org/ns/earl#NotApplicable"/>
+        <rdfs:label>earl:inapplicable</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.w3.org/ns/earl#manual -->
+
+    <owl:NamedIndividual rdf:about="http://www.w3.org/ns/earl#manual">
+        <rdf:type rdf:resource="http://www.w3.org/ns/earl#TestMode"/>
+        <rdfs:label>earl:manual</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.w3.org/ns/earl#passed -->
+
+    <owl:NamedIndividual rdf:about="http://www.w3.org/ns/earl#passed">
+        <rdf:type rdf:resource="http://www.w3.org/ns/earl#Pass"/>
+        <rdfs:label>earl:passed</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.w3.org/ns/earl#semiAuto -->
+
+    <owl:NamedIndividual rdf:about="http://www.w3.org/ns/earl#semiAuto">
+        <rdf:type rdf:resource="http://www.w3.org/ns/earl#TestMode"/>
+        <rdfs:label>earl:semiAuto</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.w3.org/ns/earl#undisclosed -->
+
+    <owl:NamedIndividual rdf:about="http://www.w3.org/ns/earl#undisclosed">
+        <rdf:type rdf:resource="http://www.w3.org/ns/earl#TestMode"/>
+        <rdfs:label>earl:undisclosed</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.w3.org/ns/earl#unknownMode -->
+
+    <owl:NamedIndividual rdf:about="http://www.w3.org/ns/earl#unknownMode">
+        <rdf:type rdf:resource="http://www.w3.org/ns/earl#TestMode"/>
+        <rdfs:label>earl:unknownMode</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.w3.org/ns/earl#untested -->
+
+    <owl:NamedIndividual rdf:about="http://www.w3.org/ns/earl#untested">
+        <rdf:type rdf:resource="http://www.w3.org/ns/earl#NotTested"/>
+        <rdfs:label>earl:untested</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="http://webprotege.stanford.edu/RdfO9fFmrPV5nup9BWTGtk">
+        <rdfs:label>auto-wcag:Rule</rdfs:label>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.5.0) http://owlapi.sourceforge.net -->
+
