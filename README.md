@@ -3,3 +3,5 @@ Vocabularies, ontologies, schemas and data (instances of terms) about web access
 
 Folder "schema" contains vocabularies, ontologies and schemas.
 Folder "data" contains data as intances of terms/classes defined in "schema".
+
+Folder accessible-project contains a copy of owl files of the ontology created by the ACCESSIBLE project: http://www.accessible-eu.org/index.php/ontology.html 
