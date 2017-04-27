@@ -1,2 +1,2 @@
-# vocabularies
-Vocabularies, ontologies and schemas about accessibility
+# vocab
+Vocabularies, ontologies, schemas and data (instances of terms) about web accessibility.
