@@ -1,0 +1,10 @@
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix s508: <https://github.com/web-a11y/vocabularies/s508.ttl#> .
+
+s508:req_1194_22_a 
+    a s508:Requirement;
+    s508:hasDescription "1194.22(a) A text equivalent for every non-text element shall be provided"@en .
+
+s508:req_1194_22_j 
+    a s508:Requirement;
+    s508:hasDescription "1194.22(j) Pages shall be designed to avoid causing the screen to flicker with a frequency greater than 2 Hz and lower than 55 Hz."@en .
