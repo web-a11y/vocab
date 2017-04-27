@@ -1,1 +1,7 @@
-relationship
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix s508: <http://example.org/section508.owl#> .
+@prefix wcag2: <http://www.AccessibleOntology.com/WCAG2.owl#> .
+
+s508:req_1194_22_a owl:sameAs wcag2:SuccessCriterion_111 .
+
+wcag2:SuccessCriterion_111 owl:sameAs s508:req_1194_22_a .
