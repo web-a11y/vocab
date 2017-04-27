@@ -1,5 +1,0 @@
-@prefix earl: <http://www.w3.org/nss/earl#>.
-@prefix s508: <http://example.org/section508.owl#>.
-@prefix wcag2: <http://www.AccessibleOntology.com/WCAG2.owl#>.
-
-[rule_epilepsy: (?aser earl:test wcag2:SuccessCriterion_231),(?aser earl:result ?res),(?res earl:outcome earl:failed) -> (?aser earl:test s508:req_1194_22_j)]
