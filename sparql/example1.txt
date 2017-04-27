@@ -1,0 +1,16 @@
+prefix earl: <http://www.w3.org/nss/earl#> 
+prefix ptr: <http://www.w3.org/2009/pointers#>
+prefix doap: <http://usefulinc.com/ns/doap#> 
+prefix s508: <http://example.org/section508.owl#>
+SELECT DISTINCT ?tool ?desc ?line ?char
+WHERE { ?a a earl:Assertion .
+?a earl:assertedBy ?tool .
+?a earl:test ?req .
+?req a s508:Requirement .
+?req s508:hasDescription ?desc .
+?a earl:result ?res .
+?res earl:outcome earl:failed .
+?res earl:pointer ?pt .
+?pt ptr:lineNumber ?line .
+?pt ptr:charNumber ?char . }
+
