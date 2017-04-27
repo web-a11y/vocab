@@ -1,0 +1,10 @@
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix wcag2: <http://www.AccessibleOntology.com/WCAG2.owl#> .
+
+wcag2:SuccessCriterion_111 
+    a wcag2:SuccessCriterion;
+    wcag2:hasDescription "Non-text Content: All non-text content that is presented to the user has a text alternative that serves the equivalent purpose, except for the situations listed below."^^xsd:string .
+
+wcag2:SuccessCriterion_231 
+    a wcag2:SuccessCriterion;
+    wcag2:hasDescription "Three Flashes or Below Threshold: Web pages do not contain anything that flashes more than three times in any one second period, or the flash is below the general flash and red flash thresholds."^^xsd:string .
